@@ -1,0 +1,20 @@
+body {
+    background-image: url(assets/background.svg);
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+main {
+   background-color: #7357BF;
+   width: 823px;
+   height: 605px;
+   border-radius: 87px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
