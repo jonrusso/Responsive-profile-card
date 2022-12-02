@@ -5,34 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
 
     <title>Profile:Card</title>
 </head>
 
 <body>
-    <main class="card">
-        <div class="logo">
-            <img src="assets/logo.svg" alt="russo-logo">
-            <h1>João Russo<span>26</span></h1>
-            <h2>Brazil</h2>
-        </div>
-        <div class="content">
-            <ul class="tabs">
-                <li class="tab followers">
-                    <h2>80K</h2>
-                    <h3>Followers</h3>
-                </li>
-                <li class="tab likes">
-                    <h2>803K</h2>
-                    <h3>likes</h3>
-                </li>
-                <li class="tab articles">
-                    <h2>1.4K</h2>
-                    <h3>articles</h3>
-                </li>
-            </ul>
+    <main class="container">
+        <div class="card">
+            <div class="profile-informations">
+                <!-- <p><span class="city">Brazil</span></p> Perhaps I'm wrong on this -->
+                <img src="src/css/images/me-fundo-png.png" alt="russo-logo">
+                <p>João Russo<span class="age">, 20</span></p>
+                <hr>
+                <span class="position">Software Developer</span>
+            </div>
+            <div class="content">
+                <ul class="tabs">
+                    <li class="info">
+                        <p class="counter">80K</p>
+                        <span class="counter-type">Followers</span>
+                    </li>
+                    <li class="info">
+                        <p class="counter">803K</p>
+                        <span class="counter-type">Likes</span>
+                    </li>
+                    <li class="info">
+                        <p class="counter">1.4K</p>
+                        <span class="counter-type">Photos</span>
+                    </li>
+                </ul>
+            </div>
         </div>
     </main>
 </body>
