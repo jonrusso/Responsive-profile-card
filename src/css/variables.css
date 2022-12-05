@@ -1,7 +1,5 @@
 :root {
     --bg: url(./assets/background.svg);
-    --card-bg: url(./assets/card-background.svg);
-    --banner-bg: url(./assets/banner-background.svg);
     --text-color: hsl(227, 10%, 46%);
     --card-color: hsl(0, 0%, 59%);
 }
